@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'AzerCell';
+    src: url('assets/fonts/Los Andes Lota Grotesque Alt 1 Black Italic.otf') format('otf');
+}
+
+body {
+    font-family: 'AzerCell', sans-serif;  
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    flex: 1;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2 {
+    flex: 1;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon i {
+    font-size: 1.2em;
+}
+
+.language-icons i {
+    font-size: 1.2em; 
+    margin: 0 5px;  
+}
+
+.flag-azerbaijan {
+    width: 30px;  
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.roaming-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;   
+}
+
+.fiweg-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;  
+    margin-top: -5px;
+}
+
+.user-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;  
+}
+
+
+.col-1:hover {
+    background-color: #333; 
+}
+
+
+.col-1.roaming-icon:hover {
+    background-color: #333;
+}
+
+
+.col-1.fiweg-icon:hover {
+    background-color: #333; 
+}
+
+
+.col-1.user-icon:hover {
+    background-color: #333;  
+}
+
+main section {
+    background-color: #4b0082; 
+    color: white; 
+    padding: 100px; 
+  
+}
+
+
+.search-form {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.search-text {
+    margin-right: 10px; 
+}
+
+label {
+    margin-bottom: 0;
+}
+
+#search-input {
+    padding: 8px;
+    width: 700px;
+    margin-bottom: 0; 
+}
+
+button {
+    padding: 16px 70px;
+    background-color: #ff4d00; 
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; 
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+main {
+    background-color: white;
+    padding: 0px; 
+}
+
+main section h4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section h4 span {
+    display: inline-block;
+    background-color: #4b0082; 
+    color: white; 
+    border-radius: 50%; 
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.square-badge {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 8px 12px; 
+    border-radius: 10px; 
+    margin: 0px; 
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.card-holder {
+    background-color: #fff; 
+    padding: 200px; 
+    color: #000 ;
+    margin: 20px;
+}
+
+.card-holder.square-badge {
+    display: block;
+    background-color: black;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.question-page {
+    background-color: white; 
+    color: black; 
+    padding: 20px;
+}
+
+.question-page {
+    background-color: white; 
+    color: black; 
+    padding: 20px; 
+}
+
+.question-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-column {
+    flex: 1;
+}
+
+.store-locations {
+    background-color: white;
+    color: black;
+    padding: 20px; 
+}
+
+#google-map {
+    height: 400px;
+}
+
+.app-azercell {
+    max-width: 100%;
+    height: auto;
+    margin:  -90px;
+    margin-top: 20px;
+}
+
